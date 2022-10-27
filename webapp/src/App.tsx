@@ -1,3 +1,12 @@
 export default function App() {
-  return <>hello world</>
+  return (
+    <div
+      style={{
+        margin: 'auto',
+        width: '8.5in',
+        height: '11in',
+        backgroundImage: 'url("background.jpg")',
+      }}
+    />
+  )
 }
