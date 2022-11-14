@@ -20,8 +20,8 @@ body,
     45deg,
     #fff,
     #fff 0.5in,
-    #ddd 0.5in,
-    #ddd 1in
+    #f8f8f8 0.5in,
+    #f8f8f8 1in
   );
 }
 
@@ -34,4 +34,12 @@ h6,
 p,
 ul {
   margin: 0;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+li {
+  list-style-type: square;
 }

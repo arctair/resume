@@ -7,7 +7,7 @@ export default function App() {
         margin: 'auto',
         width: '8.5in',
         height: '11in',
-        backgroundImage: 'url("background.jpg")',
+        // backgroundImage: 'url("background.jpg")',
         padding: '0.5rem',
         boxSizing: 'border-box',
       }}
@@ -39,15 +39,48 @@ export default function App() {
           jobTitle="Software Consultant"
           startDate="August 2019"
           endDate="October 2021"
-          description="description"
-        />
+        >
+          <ul>
+            <li>
+              Building rock-solid automations to reduce time for suppliers
+              to setup, stock and sell products through Best Buy
+            </li>
+            <li>
+              Focused deliveries with few defects via rapid prototyping,
+              test-driven development, pair programming, continuous
+              integration, and continuous deployment thru production
+            </li>
+            <li>
+              Eliminating reliance on expensive internal and third party
+              systems by giving direct control over product data to
+              manufacturers and suppliers
+            </li>
+            <li>
+              Increasing sales by enabling data quality teams to rapidly
+              improve customer-facing product information
+            </li>
+            <li>
+              Maintaining team morale and productivity through the pandemic
+              by enacting new collaborative practices while distributed
+            </li>
+            <li>
+              Hiring and mentoring several new and seasoned engineers in
+              Extreme Programming values, principles, and practices
+            </li>
+          </ul>
+        </Experience>
         <Experience
           companyName="Target"
           jobTitle="Software Engineer"
           startDate="November 2018"
           endDate="August 2019"
-          description="description"
-        />
+        >
+          <ul>
+            <li>TODO: Allocation visualizations</li>
+            <li>TODO: Mentoring</li>
+            <li>TODO: Trialed pair programming</li>
+          </ul>
+        </Experience>
       </div>
       <div>
         <h2>Education</h2>
@@ -64,13 +97,15 @@ export default function App() {
         <h2>Areas of Expertise, Skills, and Relevant Courses</h2>
         <Columns>
           <TitledList
-            title="Practices"
+            title="Practices and Skills"
             elements={[
+              'Public Speaking',
               'Pair Programming',
               'Test Driven Development',
               'Incremental Design',
-              'Continuous Intergration and Deployment',
+              'Continuous Integration and Deployment',
               'Collective Ownership',
+              'Retrospectives',
               'Blameless Culture',
               'Root-cause Analysis',
             ]}
@@ -109,23 +144,28 @@ export default function App() {
   )
 }
 
-interface ExperienceProps {
+interface ExperienceProps extends React.PropsWithChildren {
   companyName: string
+  endDate: string
   jobTitle: string
   startDate: string
-  endDate: string
-  description: string
 }
 function Experience({
+  children,
   companyName,
+  endDate,
   jobTitle,
   startDate,
-  endDate,
-  description,
 }: ExperienceProps) {
   return (
-    <div>
-      {companyName} {jobTitle} {startDate} {endDate} {description}
+    <div style={{ maxWidth: '65%' }}>
+      <h3>
+        {jobTitle} at {companyName}
+      </h3>
+      <h4>
+        {startDate} - {endDate}
+      </h4>
+      {children}
     </div>
   )
 }
