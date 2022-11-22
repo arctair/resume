@@ -16,8 +16,12 @@ export default function Education({
 }: EducationProps) {
   return (
     <div>
-      {school} {countryRegion} {stateProvince} {yearsAttended}{' '}
-      {fieldOfStudy} {levelOfEducation}
+      <h3>
+        {fieldOfStudy}, {school}
+      </h3>
+      <h4>
+        {stateProvince}, {yearsAttended}
+      </h4>
     </div>
   )
 }
