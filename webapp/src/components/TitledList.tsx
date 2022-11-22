@@ -7,7 +7,7 @@ interface TitledListProps {
 export default function TitledList({ title, elements }: TitledListProps) {
   return (
     <>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       {elements.map((element, key) => (
         <div key={key}>{element}</div>
       ))}

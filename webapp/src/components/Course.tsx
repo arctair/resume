@@ -16,7 +16,16 @@ export default function Course({
 }: CourseProps) {
   return (
     <div>
-      {title} {startDate} {endDate} {instructor} {url} {description}
+      <h3>
+        <a href={url} style={{ textDecoration: 'none', color: 'inherit' }}>
+          {title} 🔗
+        </a>
+      </h3>
+      <h4>Host: {instructor}</h4>
+      <h5>
+        {startDate} - {endDate}
+      </h5>
+      {description}
     </div>
   )
 }

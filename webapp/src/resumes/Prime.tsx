@@ -112,7 +112,6 @@ export default function App() {
         />
       </div>
       <div>
-        <h2>Areas of Expertise, Skills, and Relevant Courses</h2>
         <Columns>
           <TitledList
             title="Practices and Skills"
@@ -146,7 +145,7 @@ export default function App() {
             ]}
           />
           <div>
-            <h3>Courses</h3>
+            <h2>Courses</h2>
             <Course
               title="Mentoring TDD Java and Kotlin"
               startDate="November 2021"
