@@ -135,6 +135,14 @@ export default function App() {
           <div>
             <h3>Courses</h3>
             <Course
+              title="Mentoring TDD Java and Kotlin"
+              startDate="November 2021"
+              endDate="January 2022"
+              instructor="Me"
+              url="https://github.com/Astroversity/java-starter"
+              description="description"
+            />
+            <Course
               title="Leading Technical Change"
               startDate="July 6, 2022"
               endDate="July 21, 2022"
