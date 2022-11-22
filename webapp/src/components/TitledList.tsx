@@ -8,8 +8,8 @@ export default function TitledList({ title, elements }: TitledListProps) {
   return (
     <>
       <h3>{title}</h3>
-      {elements.map((element) => (
-        <div>{element}</div>
+      {elements.map((element, key) => (
+        <div key={key}>{element}</div>
       ))}
     </>
   )
