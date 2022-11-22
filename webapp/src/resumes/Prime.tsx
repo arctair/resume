@@ -80,9 +80,23 @@ export default function App() {
           endDate="August 2019"
         >
           <ul>
-            <li>TODO: Allocation visualizations</li>
-            <li>TODO: Mentoring</li>
-            <li>TODO: Trialed pair programming</li>
+            <li>
+              Mentoring bootcamp graduates and team members in programming
+              basics, debugging, and user story mapping
+            </li>
+            <li>
+              Reducing operating costs and time-to-market by rolling our
+              microservice fleet onto a new internal infrastructure
+              automation tool
+            </li>
+            <li>
+              Reducing expensive supply chain misallocations by adding
+              transparency through insightful visualizations
+            </li>
+            <li>
+              Trialing pair programming for the very first time. (It was a
+              disaster with many learnings! 😀)
+            </li>
           </ul>
         </Experience>
       </div>
