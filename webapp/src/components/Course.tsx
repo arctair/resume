@@ -1,20 +1,22 @@
 interface CourseProps {
   title: string
-  completionDate: string
+  startDate: string
+  endDate: string
   instructor: string
   url: string
   description: string
 }
 export default function Course({
   title,
-  completionDate,
+  startDate,
+  endDate,
   instructor,
   url,
   description,
 }: CourseProps) {
   return (
     <div>
-      {title} {completionDate} {instructor} {url} {description}
+      {title} {startDate} {endDate} {instructor} {url} {description}
     </div>
   )
 }

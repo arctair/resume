@@ -136,7 +136,8 @@ export default function App() {
             <h3>Courses</h3>
             <Course
               title="Leading Technical Change"
-              completionDate="July 21, 2022"
+              startDate="June 2022"
+              endDate="July 21, 2022"
               instructor="Michael Hill, Coach"
               url="https://www.geepawhill.org/courses/leading-technical-change"
               description="description"
