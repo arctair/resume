@@ -1,4 +1,9 @@
 import React from 'react'
+import Columns from './components/Columns'
+import Course from './components/Course'
+import Education from './components/Education'
+import Experience from './components/Experience'
+import TitledList from './components/TitledList'
 
 export default function App() {
   return (
@@ -140,103 +145,6 @@ export default function App() {
           </div>
         </Columns>
       </div>
-    </div>
-  )
-}
-
-interface ExperienceProps extends React.PropsWithChildren {
-  companyName: string
-  endDate: string
-  jobTitle: string
-  startDate: string
-}
-function Experience({
-  children,
-  companyName,
-  endDate,
-  jobTitle,
-  startDate,
-}: ExperienceProps) {
-  return (
-    <div style={{ maxWidth: '65%' }}>
-      <h3>
-        {jobTitle} at {companyName}
-      </h3>
-      <h4>
-        {startDate} - {endDate}
-      </h4>
-      {children}
-    </div>
-  )
-}
-
-interface EducationProps {
-  school: string
-  countryRegion: string
-  stateProvince: string
-  yearsAttended: string
-  fieldOfStudy: string
-  levelOfEducation: string
-}
-function Education({
-  school,
-  countryRegion,
-  stateProvince,
-  yearsAttended,
-  fieldOfStudy,
-  levelOfEducation,
-}: EducationProps) {
-  return (
-    <div>
-      {school} {countryRegion} {stateProvince} {yearsAttended}{' '}
-      {fieldOfStudy} {levelOfEducation}
-    </div>
-  )
-}
-
-function Columns({ children }: React.PropsWithChildren) {
-  const childrenAsArray = React.Children.toArray(children)
-  return (
-    <div style={{ columnCount: 3 }}>
-      {childrenAsArray.map((child) => (
-        <div style={{ breakInside: 'avoid' }}>{child}</div>
-      ))}
-    </div>
-  )
-}
-
-interface TitledListProps {
-  title: string
-  elements: React.ReactNode[]
-}
-function TitledList({ title, elements }: TitledListProps) {
-  return (
-    <>
-      <h3>{title}</h3>
-      {elements.map((element) => (
-        <div>{element}</div>
-      ))}
-    </>
-  )
-}
-
-interface CourseProps {
-  title: string
-  completionDate: string
-  instructor: string
-  url: string
-  description: string
-}
-function Course({
-  title,
-  completionDate,
-  instructor,
-  url,
-  description,
-}: CourseProps) {
-  return (
-    <div>
-      {title} {completionDate} {instructor} {url} {description}
     </div>
   )
 }
