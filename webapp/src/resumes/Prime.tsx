@@ -17,15 +17,6 @@ export default function App() {
       }}
     >
       <div>
-        <h1>Tyler Johnson</h1>
-        <a
-          style={{ textDecoration: 'none', color: 'inherit' }}
-          href="mailto:tyler@cruftbusters.com"
-        >
-          tyler@cruftbusters.com
-        </a>
-      </div>
-      <div>
         <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
