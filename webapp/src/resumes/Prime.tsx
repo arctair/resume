@@ -1,4 +1,3 @@
-import Columns from '../components/Columns'
 import Course from '../components/Course'
 import Education from '../components/Education'
 import Experience from '../components/Experience'
@@ -125,7 +124,7 @@ export default function App() {
             'Groovy/Spock',
             'Kotlin/Kotest',
             'Typescript/Jest/React/Node',
-            'Python/Pytest',
+            'Git',
             'IntelliJ/Vim',
             'Linux/MacOS/Windows',
             'AWS (S3, EC2, Route53, Cloudfront, awscli+sdk)',
