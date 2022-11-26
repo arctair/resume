@@ -102,7 +102,7 @@ export default function App() {
         fieldOfStudy="B.S. Computer Science"
         levelOfEducation="Undergraduate"
       />
-      <Columns>
+      <div style={{ display: 'flex' }}>
         <TitledList
           title="Practices and Skills"
           elements={[
@@ -153,7 +153,7 @@ export default function App() {
             description="description"
           />
         </div>
-      </Columns>
+      </div>
     </div>
   )
 }

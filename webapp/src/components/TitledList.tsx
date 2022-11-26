@@ -6,11 +6,11 @@ interface TitledListProps {
 }
 export default function TitledList({ title, elements }: TitledListProps) {
   return (
-    <>
+    <div>
       <h2>{title}</h2>
       {elements.map((element, key) => (
         <div key={key}>{element}</div>
       ))}
-    </>
+    </div>
   )
 }
