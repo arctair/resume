@@ -117,7 +117,6 @@ export default function App() {
               'Collective Ownership',
               'Retrospectives',
               'Blameless Culture',
-              'Root-cause Analysis',
             ]}
           />
         </div>
