@@ -104,46 +104,50 @@ export default function App() {
         levelOfEducation="Undergraduate"
       />
       <div style={{ display: 'flex' }}>
-        <TitledList
-          title="Practices and Skills"
-          elements={[
-            'Public Speaking',
-            'Pair Programming',
-            'Test Driven Development',
-            'Incremental Design',
-            'Continuous Integration and Deployment',
-            'Automated Acceptance Testing',
-            'Collective Ownership',
-            'Retrospectives',
-            'Blameless Culture',
-            'Root-cause Analysis',
-          ]}
-        />
-        <TitledList
-          title="Technologies"
-          elements={[
-            'Java/JUnit',
-            'Groovy/Spock',
-            'Kotlin/Kotest',
-            'Typescript/Jest/React/Node',
-            'Git',
-            'IntelliJ/Vim',
-            'Linux/MacOS/Windows',
-            'AWS (S3, EC2, Route53, Cloudfront, awscli+sdk)',
-            'OpenShift/Kubernetes',
-            'Jenkins',
-            'IP/TCP/TLS/HTTP/DNS',
-          ]}
-        />
-        <div>
+        <div style={{ flex: 1 }}>
+          <TitledList
+            title="Practices and Skills"
+            elements={[
+              'Public Speaking',
+              'Pair Programming',
+              'Test Driven Development',
+              'Incremental Design',
+              'Continuous Integration and Deployment',
+              'Automated Acceptance Testing',
+              'Collective Ownership',
+              'Retrospectives',
+              'Blameless Culture',
+              'Root-cause Analysis',
+            ]}
+          />
+        </div>
+        <div style={{ flex: 1 }}>
+          <TitledList
+            title="Technologies"
+            elements={[
+              'Java/JUnit',
+              'Groovy/Spock',
+              'Kotlin/Kotest',
+              'Typescript/Jest/React/Node',
+              'Git',
+              'IntelliJ/Vim',
+              'Linux/MacOS/Windows',
+              'AWS (S3, EC2, Route53, Cloudfront, awscli+sdk)',
+              'OpenShift/Kubernetes',
+              'Jenkins',
+              'IP/TCP/TLS/HTTP/DNS',
+            ]}
+          />
+        </div>
+        <div style={{ flex: 1.2 }}>
           <h2>Courses</h2>
           <Course
-            title="Mentoring TDD Java and Kotlin"
+            title="JVM Mentoring"
             startDate="November 2021"
             endDate="January 2022"
             instructor="Me"
             url="https://github.com/Astroversity/java-starter"
-            description="description"
+            description="Mentored a new programmer in JVM, pair programming, and TDD to prepare him for an entry-level software role"
           />
           <Course
             title="Leading Technical Change"
@@ -151,7 +155,7 @@ export default function App() {
             endDate="July 21, 2022"
             instructor="Michael Hill, Coach"
             url="https://www.geepawhill.org/courses/leading-technical-change"
-            description="description"
+            description="Workshopped non-coercive coaching strategies for helping developers, stakeholders, managers and executives"
           />
         </div>
       </div>
