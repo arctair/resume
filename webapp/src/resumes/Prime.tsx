@@ -17,7 +17,7 @@ export default function App() {
       }}
     >
       <div>
-        <h2>About Me</h2>
+        <h2>Introduction</h2>
         <p>
           Your push to build processing for pharmacy rebates and client
           payments caught my attention and I am very interested in helping
