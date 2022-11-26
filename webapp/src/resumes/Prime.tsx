@@ -40,13 +40,13 @@ export default function App() {
         quality and speed. I am a life-long geek with a knack for
         experimentation and experience in JVM programming, collaborative
         practices, and quality-driven practices. I am most effective on a
-        team of members that seek to deeply understand and by understood by
+        team of members that seek to deeply understand and be understood by
         others.
       </p>
       <p>
-        This résumé is a very brief summary of my education and experience
-        and serves as a conversation starter for us. I am happy to discuss
-        my experience or thoughts on anything not listed here.
+        This résumé is a very brief summary of my experience and serves as
+        a conversation starter for us. I am happy to discuss my experience
+        or thoughts on anything not listed here.
       </p>
       <ExperienceContainer title="Experience">
         <Experience
