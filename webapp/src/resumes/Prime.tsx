@@ -1,6 +1,7 @@
 import Course from '../components/Course'
 import Education from '../components/Education'
 import Experience from '../components/Experience'
+import ExperienceContainer from '../components/ExperienceContainer'
 import TitledList from '../components/TitledList'
 
 export default function App() {
@@ -11,7 +12,7 @@ export default function App() {
         width: '8.5in',
         height: '11in',
         // backgroundImage: 'url("background.jpg")',
-        padding: '0.5rem',
+        padding: '0 1rem',
         boxSizing: 'border-box',
       }}
     >
@@ -30,68 +31,69 @@ export default function App() {
         and serves as a conversation starter for us. I am happy to discuss
         my experience or thoughts on anything not listed here.
       </p>
-      <h2>Experience</h2>
-      <Experience
-        companyName="Best Buy"
-        jobTitle="Software Consultant"
-        startDate="August 2019"
-        endDate="October 2021"
-      >
-        <ul>
-          <li>
-            Building rock-solid automations to reduce time for suppliers to
-            setup, stock and sell products through Best Buy
-          </li>
-          <li>
-            Focused deliveries with few defects via rapid prototyping,
-            test-driven development, pair programming, continuous
-            integration, and continuous deployment thru production
-          </li>
-          <li>
-            Eliminating reliance on expensive internal and third party
-            systems by giving direct control over product data to
-            manufacturers and suppliers
-          </li>
-          <li>
-            Increasing sales by enabling data quality teams to rapidly
-            improve customer-facing product information
-          </li>
-          <li>
-            Maintaining team morale and productivity through the pandemic
-            by enacting new collaborative practices while distributed
-          </li>
-          <li>
-            Hiring and mentoring several new and seasoned engineers in
-            Extreme Programming values, principles, and practices
-          </li>
-        </ul>
-      </Experience>
-      <Experience
-        companyName="Target"
-        jobTitle="Software Engineer"
-        startDate="November 2018"
-        endDate="August 2019"
-      >
-        <ul>
-          <li>
-            Mentoring bootcamp graduates and team members in programming
-            basics, debugging, and user story mapping
-          </li>
-          <li>
-            Reducing operating costs and time-to-market by rolling our
-            microservice fleet onto a new internal infrastructure
-            automation tool
-          </li>
-          <li>
-            Reducing expensive supply chain misallocations by adding
-            transparency through insightful visualizations
-          </li>
-          <li>
-            Trialing pair programming for the very first time. (It was a
-            disaster with many learnings! 😀)
-          </li>
-        </ul>
-      </Experience>
+      <ExperienceContainer title="Experience">
+        <Experience
+          companyName="Best Buy"
+          jobTitle="Software Consultant"
+          startDate="August 2019"
+          endDate="October 2021"
+        >
+          <ul>
+            <li>
+              Building rock-solid automations to reduce time for suppliers
+              to setup, stock and sell products through Best Buy
+            </li>
+            <li>
+              Focused deliveries with few defects via rapid prototyping,
+              test-driven development, pair programming, continuous
+              integration, and continuous deployment thru production
+            </li>
+            <li>
+              Eliminating reliance on expensive internal and third party
+              systems by giving direct control over product data to
+              manufacturers and suppliers
+            </li>
+            <li>
+              Increasing sales by enabling data quality teams to rapidly
+              improve customer-facing product information
+            </li>
+            <li>
+              Maintaining team morale and productivity through the pandemic
+              by enacting new collaborative practices while distributed
+            </li>
+            <li>
+              Hiring and mentoring several new and seasoned engineers in
+              Extreme Programming values, principles, and practices
+            </li>
+          </ul>
+        </Experience>
+        <Experience
+          companyName="Target"
+          jobTitle="Software Engineer"
+          startDate="November 2018"
+          endDate="August 2019"
+        >
+          <ul>
+            <li>
+              Mentoring bootcamp graduates and team members in programming
+              basics, debugging, and user story mapping
+            </li>
+            <li>
+              Reducing operating costs and time-to-market by rolling our
+              microservice fleet onto a new internal infrastructure
+              automation tool
+            </li>
+            <li>
+              Reducing expensive supply chain misallocations by adding
+              transparency through insightful visualizations
+            </li>
+            <li>
+              Trialing pair programming for the very first time. (It was a
+              disaster with many learnings! 😀)
+            </li>
+          </ul>
+        </Experience>
+      </ExperienceContainer>
       <h2>Education</h2>
       <Education
         school="North Dakota State University"

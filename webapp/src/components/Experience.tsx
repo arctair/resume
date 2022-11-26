@@ -1,4 +1,5 @@
 import React from 'react'
+import './Experience.css'
 
 interface ExperienceProps extends React.PropsWithChildren {
   companyName: string
@@ -14,7 +15,7 @@ export default function Experience({
   startDate,
 }: ExperienceProps) {
   return (
-    <div>
+    <div className="experience">
       <h3>
         {jobTitle} at {companyName}
       </h3>
