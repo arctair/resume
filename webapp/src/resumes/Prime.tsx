@@ -54,6 +54,10 @@ export default function App() {
               manufacturers and suppliers
             </li>
             <li>
+              Initiating dark rollout deployment strategy to uncover more
+              defects sooner than production deployment
+            </li>
+            <li>
               Increasing sales by enabling data quality teams to rapidly
               improve customer-facing product information
             </li>
