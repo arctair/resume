@@ -14,7 +14,7 @@ export default function App() {
         margin: 'auto',
         width: '8.5in',
         height: '11in',
-        // backgroundImage: 'url("background.jpg")',
+        backgroundColor: 'white',
         padding: '0 1rem',
         boxSizing: 'border-box',
       }}

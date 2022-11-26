@@ -16,13 +16,7 @@ html,
 body,
 #root {
   height: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    #fff,
-    #fff 0.5in,
-    #f8f8f8 0.5in,
-    #f8f8f8 1in
-  );
+  background: #faa;
 }
 
 h1,
