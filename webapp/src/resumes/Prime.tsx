@@ -59,7 +59,7 @@ export default function App() {
             </li>
             <li>
               Maintaining team morale and productivity through the pandemic
-              by enacting new collaborative practices while distributed
+              by adapting collaborative practices while distributed
             </li>
             <li>
               Hiring and mentoring several new and seasoned engineers in
