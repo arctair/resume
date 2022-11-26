@@ -115,15 +115,6 @@ export default function App() {
           </ul>
         </Experience>
       </ExperienceContainer>
-      <h2>Education</h2>
-      <Education
-        school="North Dakota State University"
-        countryRegion="United States of America"
-        stateProvince="Fargo, North Dakota"
-        yearsAttended="2014-2017"
-        fieldOfStudy="B.S. Computer Science"
-        levelOfEducation="Undergraduate"
-      />
       <div style={{ display: 'flex' }}>
         <div style={{ flex: 1 }}>
           <TitledList
@@ -180,6 +171,15 @@ export default function App() {
           />
         </div>
       </div>
+      <h2>Education</h2>
+      <Education
+        school="North Dakota State University"
+        countryRegion="United States of America"
+        stateProvince="Fargo, North Dakota"
+        yearsAttended="2014-2017"
+        fieldOfStudy="B.S. Computer Science"
+        levelOfEducation="Undergraduate"
+      />
     </div>
   )
 }
