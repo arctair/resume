@@ -43,3 +43,7 @@ ul {
 li {
   list-style-type: square;
 }
+
+p {
+  text-indent: 1rem;
+}

@@ -19,12 +19,19 @@ export default function App() {
       <div>
         <h2>About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          congue nunc erat, vitae mollis magna egestas et. Etiam vel
-          pulvinar ligula, ac eleifend elit. Fusce luctus id ipsum ac
-          pharetra. Vestibulum pretium rhoncus viverra. Cras placerat
-          vestibulum mauris at laoreet. Vestibulum dictum quam mauris, a
-          mollis nisl euismod vel. Aenean aliquet dapibus enim eget porta.
+          Your push to build processing for pharmacy rebates and client
+          payments caught my attention and I am very interested in helping
+          you deliver with focus on collaboration, quality and speed. I am
+          a life-long geek with a knack for experimentation and experience
+          in JVM programming, collaborative practices, and quality-driven
+          practices. I am most effective on a team of members that seek to
+          deeply understand and by understood by others.
+        </p>
+        <p>
+          This résumé is a very brief summary of my education and
+          experience and serves as a conversation starter for us. I am
+          happy to discuss my experience or thoughts on anything not listed
+          here.
         </p>
       </div>
       <div>
