@@ -14,7 +14,7 @@ export default function Experience({
   startDate,
 }: ExperienceProps) {
   return (
-    <div style={{ maxWidth: '65%' }}>
+    <div>
       <h3>
         {jobTitle} at {companyName}
       </h3>
