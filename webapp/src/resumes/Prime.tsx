@@ -35,12 +35,13 @@ export default function App() {
       </h2>
       <p>
         Your push to build processing for pharmacy rebates and client
-        payments caught my attention and I am very interested in helping
-        you deliver with focus on collaboration, quality and speed. I am a
-        life-long geek with a knack for experimentation and experience in
-        JVM programming, collaborative practices, and quality-driven
-        practices. I am most effective on a team of members that seek to
-        deeply understand and by understood by others.
+        payments at Prime Therapeutics caught my attention and I am very
+        interested in helping you deliver with focus on collaboration,
+        quality and speed. I am a life-long geek with a knack for
+        experimentation and experience in JVM programming, collaborative
+        practices, and quality-driven practices. I am most effective on a
+        team of members that seek to deeply understand and by understood by
+        others.
       </p>
       <p>
         This résumé is a very brief summary of my education and experience
