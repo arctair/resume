@@ -34,7 +34,7 @@ export default function App() {
       <ExperienceContainer title="Experience">
         <Experience
           companyName="Best Buy"
-          jobTitle="Software Consultant"
+          jobTitle="Independent Software Developer"
           startDate="August 2019"
           endDate="October 2021"
         >
