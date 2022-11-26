@@ -16,7 +16,23 @@ export default function App() {
         boxSizing: 'border-box',
       }}
     >
-      <h2>Introduction</h2>
+      <h2>
+        Introduction
+        <a
+          href="https://github.com/arctair"
+          style={{
+            float: 'right',
+            textAlign: 'justify',
+            marginTop: '0.125rem',
+            marginRight: '1rem',
+          }}
+        >
+          <img
+            style={{ width: '1.25rem', display: 'inline-block' }}
+            src="Octicons-mark-github.svg"
+          />
+        </a>
+      </h2>
       <p>
         Your push to build processing for pharmacy rebates and client
         payments caught my attention and I am very interested in helping
