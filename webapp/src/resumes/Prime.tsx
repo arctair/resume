@@ -39,9 +39,9 @@ export default function App() {
         </h2>
         <p>
           Your push to build processing for pharmacy rebates and client
-          payments at Prime Therapeutics caught my attention and I am very
+          payments at Prime Therapeutics caught my attention. I am very
           interested in helping you deliver with focus on collaboration,
-          quality and speed. I am a life-long geek with a knack for
+          quality and speed! I am a life-long geek with a knack for
           experimentation and experience in JVM programming, collaborative
           practices, and quality-driven practices. I am most effective on a
           team of members that seek to deeply understand and be understood
