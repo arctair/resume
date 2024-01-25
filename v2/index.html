@@ -3,49 +3,189 @@
 
 <head>
     <title>resume v2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        html {
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        header {
+            font-weight: bold;
+        }
+
+        header:not(:first-child) {}
+
+        header>small {
+            font-weight: normal;
+        }
+
+        header>small::before {
+            content: ':';
+        }
+
+        p,
+        .phraseblock {
+            margin: 0.25em 0;
+        }
+
+        .phraseblock {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 0.75em;
+        }
+
+        .phraseblock>span {
+            margin-right: 0.25em;
+            margin-bottom: 0.25em;
+            border-radius: 0.125em;
+            border: 1px solid #AAAAAA;
+            padding: 0.125em 0.25em;
+        }
+
+        ul {
+            padding: 0 1em;
+            margin: 0;
+        }
+    </style>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 </head>
 
 <body>
-    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <header> Introduction </header>
+    <p>
+        I am a free agent and I have been made curious about Developer Productivity work opportunities at
+        Thrivent. I am enthusiastic to learn about your initiatives and in what areas you are looking for
+        help. This document serves as a conversation starter about your objectives and how I could help meet them.
+    </p>
+    <p>
+        There are many ways to build software done right. The teams to which I have contributed have had great success
+        employing many more much smaller steps to tackle large objectives. This is the kind of community I seek to
+        build and join. If this style or mindset resonates with you then I expect we could have a great partnership.
+    </p>
+    <p>
+        I am living and working from Kirkland, Washington. I am consistent with aligning my remote
+        availability and collaboration to those working in Central +5/+6 timezone. My internet speed is
+        symmetric gigabit and latency to Minneapolis is typically less than 90ms.
+    </p>
+    <header> Practices </header>
+    <div class="phraseblock">
+        <span> Public Speaking </span>
+        <span> Pair Programming </span>
+        <span> Test Driven Development </span>
+        <span> Automated Unit and System Testing </span>
+        <span> Incremental Design </span>
+        <span> Trunk-Based Continuous Integration and Deployment </span>
+        <span> Blue-Green </span>
+        <span> Dark Rollout </span>
+        <span> Collective Ownership </span>
+        <span> Retrospectives </span>
+        <span> Blameless Culture </span>
+        <span> Real Customer Involvement </span>
+        <span> Starting With What We Have </span>
+    </div>
+    <header> Technologies </header>
+    <div class="phraseblock">
+        <span> Github Actions, Jenkins </span>
+        <span> Java, JUnit </span>
+        <span> Groovy, Spock </span>
+        <span> Kotlin, Kotest </span>
+        <span> Rust </span>
+        <span> Typescript, Jest, React, Node </span>
+        <span> Git </span>
+        <span> IntelliJ, Vim </span>
+        <span> Linux, MacOS, Windows </span>
+        <span> AWS (S3, EC2, Route53, Cloudfront, awscli+sdk, IAM) </span>
+        <span> OpenShift, Kubernetes </span>
+        <span> IP, TCP, TLS, HTTP, DNS </span>
+    </div>
+    <header> Professional Projects <small> Relevant responsibilites I held with clients in my recent career </small>
+    </header>
     <ul>
         <li>
-            Introduction
+            Prime Therapeutics
             <ul>
-                <li>Teddy's needs</li>
-                <li>Thrivent's needs</li>
-                <li>Software Done Right - People First, Step-Driven Mindset</li>
-                <li>My location and remote availability</li>
+                <li> Releasing new and relevant daily changes to our rebate payment reporting platform </li>
+                <li> On-boarding existing and new clients to our rebate payment reporting platform </li>
+                <li> Hosting recurring showcase of latest deliverables and Q&A to an audience of stakeholders,
+                    engineers, managers and executives </li>
+                <li> Mentoring team members in TDD, pair programming, planning, and incremental development
+                </li>
+                <li> Improving team cohesion through voice or virtual face-to-face communication </li>
             </ul>
         </li>
         <li>
-            Skills
+            Best Buy
             <ul>
-                <li>My experience CI/CD with automated deployments from trunk, GitHub actions</li>
-                <li>My professional experience with Java back-ends</li>
-                <li>My non-professional experience with front-ends</li>
-                <li>Test infection</li>
+                <li>
+                    Delivering small and impactful changes to our vendor product management platform every day
+                    reducing time for suppliers to setup, stock and sell products through Best Buy
+                </li>
+                <li>
+                    Eliminating reliance on expensive internal and third party
+                    systems by giving direct control over product data to
+                    manufacturers and suppliers
+                </li>
+                <li>
+                    Initiating dark rollout deployment strategy to catch defects sooner than production
+                    deployment time
+                </li>
+                <li>
+                    Hiring and mentoring both new and seasoned engineers in
+                    Extreme Programming values, principles, and practices
+                </li>
             </ul>
         </li>
         <li>
-            Professional Projects
+            Target
             <ul>
-                <li>Prime Therapeutics</li>
-                <li>Best Buy</li>
-                <li>Target</li>
+                <li>
+                    Mentoring bootcamp graduates and team members in
+                    programming fundamentals, debugging, and user story mapping
+                </li>
+                <li>
+                    Reducing operating costs and time-to-market by rolling our
+                    microservice fleet onto a new internal infrastructure
+                    automation tool
+                </li>
+                <li>
+                    Reducing expensive supply chain misallocations by adding
+                    transparency through insightful visualizations
+                </li>
+                <li>
+                    Trialing pair programming for my very first time
+                </li>
             </ul>
         </li>
+    </ul>
+    <header> Personal Projects <small> Relevant experience from the personal lab </small> </header>
+    <ul>
         <li>
-            Personal Projects
-            <ul>
-                <li>Rust and Bevy Demo</li>
-                <li>Leadership Course - Leadership Through Change</li>
-            </ul>
+            Rust and Bevy Demo : from December 2023 ongoing : lead by me : 2D terraforming game demo inspired by
+            Astroneer. This is my training ground for the Rust programming language, Bevy game system, computer graphics
+            and geometric data structures : <a href="https://github.com/arctair/worm-demo">source</a>
         </li>
         <li>
-            Education
-            <ul>
-                <li>North Dakota State University</li>
-            </ul>
+            Leadership Through Change Course : from July 6, 2022 to July 21, 2022 : lead by Michael Hill, Coach :
+            Workshopped non-coercive coaching strategies for helping developers, stakeholders, managers and executives :
+            <a href="https://www.geepawhill.org/courses/leading-technical-change">link</a>
+        </li>
+        <li>
+            Java Mentorship : from November 2021 to January 2022 : lead by me : Mentored a new programmer in JVM, pair
+            programming, and TDD to prepare him for an entry-level software role :
+            <a href="https://github.com/Astroversity/java-starter">source</a>
+        </li>
+    </ul>
+    <header> Education <small> Relevant software instruction </small> </header>
+    <ul>
+        <li>
+            North Dakota State University : Fargo, North Dakota : from 2014 to 2017 : B.S. Computer Science :
+            Undergraduate
         </li>
     </ul>
 </body>
